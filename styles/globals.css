@@ -22,3 +22,8 @@ a {
   font-family: "burtons";
   src: url("../public/Burtons.otf");
 }
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom:0;
+}
