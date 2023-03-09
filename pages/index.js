@@ -31,7 +31,7 @@ export default function Home() {
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
-            <h1 className="font-burtons text-xl">MyProfile</h1>
+            <h1 className="font-burtons text-xl">myprofile</h1>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill
@@ -65,10 +65,10 @@ export default function Home() {
             
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-              <AiFillTwitterCircle />
-              <AiFillGithub />
-              <AiFillYoutube />
-              <AiOutlineFile/>
+              <a href="https://twitter.com/comesan1930"> <AiFillTwitterCircle/></a>
+              <a href="https://github.com/come3300"><AiFillGithub /></a>
+              <a href="https://www.youtube.com/@komesuke4755"><AiFillYoutube /></a>
+               <a href="https://note.com/suke3300_blog"><AiOutlineFile/></a>
             </div>
            
           </div>
@@ -125,36 +125,40 @@ export default function Home() {
         </section>
         <section className="py-10">
           <div>
-            <h3 className="text-3xl py-1 dark:text-white font-bold">Portofolio</h3>
+            <h3 className="text-3xl py-1 dark:text-white font-bold">Portfolio</h3>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 ">
-              <Image
-                 className="rounded-lg object-cover w-fit"
+              <a href="https://unirage.co.jp/"> 
+                <Image className="rounded-lg object-cover w-fit"
                 layout="responsive"
                 src={web3}
               />
+              </a>
             </div>
             <div className="basis-1/3 flex-1">
-              <Image
-                 className="rounded-lg object-cover w-fit"
+               <a href="https://interior.unirage.co.jp/">
+              <Image className="rounded-lg object-cover w-fit"
                 layout="responsive"
                 src={web2}
               />
+              </a>
             </div>
             <div className="basis-1/3 flex-1">
-              <Image
-               className="rounded-lg object-cover w-fit"
+               <a href="https://handy-duple.co.jp/">
+              <Image className="rounded-lg object-cover w-fit"
                 layout="responsive"
                 src={web1}
               />
+              </a>
             </div>
             <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover w-fit"
+               <a href="https://wabi-sabi-hakko.com/">
+              <Image className="rounded-lg object-cover w-fit"
                 layout="responsive"
                 src={web4}
               />
+              </a>
             </div>
             
            
