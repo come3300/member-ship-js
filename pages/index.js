@@ -39,14 +39,14 @@ export default function Home() {
                   className=" cursor-pointer text-2xl"
                 />
               </li>
-              <li>
+              {/* <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
                   href="#"
                 >
                   Resume
                 </a>
-              </li>
+              </li> */}
             </ul>
           </nav>
           <div className="text-center py-15">
@@ -55,7 +55,7 @@ export default function Home() {
               <Image src={pr} layout="fill" objectFit="cover" />
             </div>
             
-            <h2 className="text-5xl py-2 text-teal-600 font-bold dark:text-teal-400 md:text-6xl">
+            <h2 className="text-5xl py-2 text-sky-800 font-bold dark:text-yellow-500 md:text-6xl">
              Daisuke Yonekura
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
@@ -65,10 +65,9 @@ export default function Home() {
             
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-              <a href="https://twitter.com/comesan1930"> <AiFillTwitterCircle/></a>
               <a href="https://github.com/come3300"><AiFillGithub /></a>
               <a href="https://www.youtube.com/@komesuke4755"><AiFillYoutube /></a>
-               <a href="https://note.com/suke3300_blog"><AiOutlineFile/></a>
+              <a href="https://note.com/suke3300_blog"><AiOutlineFile/></a>
             </div>
            
           </div>
@@ -90,7 +89,7 @@ export default function Home() {
                react/Nextjs/Laravel/WPを使って
                Web制作,アプリ制作,システム開発を行います。
               </p>
-              <h4 className="py-4 text-teal-600">Tools</h4>
+              <h4 className="py-4 text-sky-800 dark:text-yellow-500">Tools</h4>
               <p className="text-gray-800 py-1">Javascript</p>
               <p className="text-gray-800 py-1">PHP</p>
               <p className="text-gray-800 py-1">React/Next.js</p>
@@ -105,10 +104,11 @@ export default function Home() {
               <p className="py-2">
                動画編集、動画制作を行います。YouTube等のSNSでバズる動画制作が得意です。
               </p>
-              <h4 className="py-4 text-teal-600">Tools</h4>
+              <h4 className="py-4 text-sky-800 dark:text-yellow-500">Tools</h4>
               <p className="text-gray-800 py-1">AdobePremire</p>
               <p className="text-gray-800 py-1">AdobeAffterEfect</p>
               <p className="text-gray-800 py-1">Photoshop</p>
+              <p className="text-gray-800 py-7 text-xs">総再生数150万以上のチャンネル<br/>2チャンネル運営中</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={teach} width={100} height={100} />
@@ -116,7 +116,7 @@ export default function Home() {
               <p className="py-2">
                 PHP,Laravelをはじめてとしたプログラミング言語を教えております
               </p>
-              <h4 className="py-4 text-teal-600">Im teaching</h4>
+              <h4 className="py-4 text-sky-800 dark:text-yellow-500">Im teaching</h4>
               <p className="text-gray-800 py-1">PHP</p>
               <p className="text-gray-800 py-1">Laravel</p>
               <p className="text-gray-800 py-1">ITパスポート</p>
