@@ -1,12 +1,8 @@
-import pr from "../public/pr.png";
 import code from "../public/support-team.png";
 import movie from "../public/movie.png";
 import teach from "../public/teaching.png";
 import Image from "next/image";
-import web1 from "../public/h&y.png";
-import web2 from "../public/unirage-creative.png";
-import web3 from "../public/unirage.png";
-import web4 from "../public/wabisabi.png";
+
 
 
 export  function Service() {

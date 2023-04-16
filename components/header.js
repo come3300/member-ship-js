@@ -1,6 +1,4 @@
-import styles from '../styles/header.module.css';
-import { BsFillMoonStarsFill } from "react-icons/bs";
-import { useState } from "react";
+
 
 export  function Header() {
 
