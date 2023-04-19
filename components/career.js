@@ -1,4 +1,4 @@
-import styles from 'styles/career.module.scss'
+import styles from 'styles/career.module.css'
 
     
 export  function Career() {
