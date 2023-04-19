@@ -1,8 +1,9 @@
 import Head from "next/head";
-import { Header } from '../components/header';
-import { Mv } from '../components/mv';
-import { Service } from '../components/service';
-import { Port } from '../components/port';
+import { Header } from 'components/header';
+import { Mv } from 'components/mv';
+import { Service } from 'components/service';
+import { Port } from 'components/port';
+import { Career } from 'components/career';
 import { useState } from "react";
 
 export default function Home() {
@@ -24,6 +25,7 @@ export default function Home() {
         </section> 
         <Service />
         <Port />
+        <Career/>
       </main>
     </div>
   );

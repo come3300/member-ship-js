@@ -1,9 +1,8 @@
-
 import Image from "next/image";
-import web1 from "../public/h&y.png";
-import web2 from "../public/unirage-creative.png";
-import web3 from "../public/unirage.png";
-import web4 from "../public/wabisabi.png";
+import web1 from "public/h&y.png";
+import web2 from "public/unirage-creative.png";
+import web3 from "public/unirage.png";
+import web4 from "public/wabisabi.png";
 
 
 export  function Port() {

@@ -1,6 +1,6 @@
-import code from "../public/support-team.png";
-import movie from "../public/movie.png";
-import teach from "../public/teaching.png";
+import code from "public/support-team.png";
+import movie from "public/movie.png";
+import teach from "public/teaching.png";
 import Image from "next/image";
 
 

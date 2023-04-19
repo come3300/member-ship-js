@@ -1,6 +1,6 @@
 import {AiFillYoutube,AiFillGithub,AiOutlineFile,} from "react-icons/ai";
 import Image from "next/image";
-import pr from "../public/pr.png";
+import pr from "public/pr.png";
 
 export  function Mv() {
 
