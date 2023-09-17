@@ -6,6 +6,19 @@ const nextConfig = {
 
 module.exports = nextConfig
 
-module.exports = {
-  target: 'serverless', 
-};
+const withMDX = require('@next/mdx')({
+  options: {
+    remarkPlugins: [],
+    rehypePlugins: [
+      [
+        require('rehype-pretty-code'),
+        /** @type {Partial<import("rehype-pretty-code").Options>} */
+        ({
+          theme: "github-light",
+          getHighlighter: require('shiki').getHighlighter,
+        }),
+      ],
+    ],
+  },
+});
+module.exports = withMDX(nextConfig);

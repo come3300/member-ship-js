@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+@import 'highlight.js/styles/github.css';
+@import './custom-highlight.css'; 
+
+
 html,
 body {
   padding: 0;
