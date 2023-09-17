@@ -1,24 +1,23 @@
 /** @type {import('next').NextConfig} */
+
+const withMDX = require('@next/mdx')({
+  extension: /\.mdx?$/,
+  options: {
+    remarkPlugins: [],
+    rehypePlugins: [],
+  },
+})
+
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
+  reactStrictMode: true,
 }
 
 module.exports = nextConfig
 
-const withMDX = require('@next/mdx')({
-  options: {
-    remarkPlugins: [],
-    rehypePlugins: [
-      [
-        require('rehype-pretty-code'),
-        /** @type {Partial<import("rehype-pretty-code").Options>} */
-        ({
-          theme: "github-light",
-          getHighlighter: require('shiki').getHighlighter,
-        }),
-      ],
-    ],
-  },
-});
-module.exports = withMDX(nextConfig);
+
+
+
+module.exports = withMDX(nextConfig)
